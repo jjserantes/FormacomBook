@@ -1,0 +1,170 @@
+/**{
+    border:1px solid black;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #af4c4c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 0;
+}
+H1 {
+    font-size: 50px;
+}
+#logo{
+    width: 10%;
+}
+article{
+    width: 30%;
+}
+article img {
+    width: 100%;
+}
+#seccionFotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.contenedorImg{
+height: 290px;
+overflow: hidden;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 0px solid black;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+main {
+    background: #b95c5c;
+}*/
+
+/* Estilos generales */
+* {
+    border: 0px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #af4c4c;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em 2em;
+    border-radius: 15px
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#logo {
+    width: 10%;
+}
+
+article {
+    width: 30%;
+}
+
+article img {
+    width: 100%;
+}
+
+#seccionFotos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedorImg {
+    height: 290px;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 0px solid black;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+main {
+    background: #b95c5c;
+    border-radius: 15px
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Media queries para hacer la web responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #logo {
+        width: 20%;
+    }
+
+    article {
+        width: 45%;
+    }
+
+    #seccionFotos {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #logo {
+        width: 30%;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    .contenedorImg {
+        height: auto;
+    }
+}
